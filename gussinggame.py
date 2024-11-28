@@ -11,5 +11,5 @@ while trialCount < numberOfTrials:
     else:
         print(f"Your guess {guess} is wrong, try again.")
     trialCount +=1
-    
-print(f"The lucky number was {luckyNumber}")       
+else:
+    print(f"The lucky number was {luckyNumber}")       
