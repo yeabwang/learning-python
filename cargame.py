@@ -1,6 +1,6 @@
 status = "NULL"
 
-while(status != "quit"):
+while True:
     status = input("> ").lower()
     if(status == "start"):
         print("Car started...Ready to go!")
