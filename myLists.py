@@ -12,8 +12,3 @@ for x,y in enumerate(myList):
     
 myset = set(myList)
 print(myset)
-
-for x in myset:
-    if(x == 30):
-        print("Fuck")
-        

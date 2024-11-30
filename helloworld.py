@@ -2,7 +2,7 @@
 # In this program we will be using one in built function to print out to console
 # The effect we see which can be visual or other effects as a part of our function are called side effects
 
-print("Hello, world!")  
+# print("Hello, world!")  
 
 # Arguments are an input to the function affecting the behavior of the function
 # When we talk about what the functions can take, we say those are parameters
@@ -12,9 +12,16 @@ print("Hello, world!")
 # Side effects are any observable change in the state of a program on its environment made by the execution of the code /
 # Return values, these are values that are handed back from the functions
 
-name = input("Whats your name? ")
-print("Hello " + name +"!") # String concatination 
-print(f"Hello {name}!") #String format
-print("Hello ", format(name), "!", sep="")
-print("Hello ", end="")
-print(name)
+# name = input("Whats your name? ")
+# print("Hello " + name +"!") # String concatination 
+# print(f"Hello {name}!") #String format
+# print("Hello ", format(name), "!", sep="")
+# print("Hello ", end="")
+# print(name)
+
+# We can strip the user input
+
+name = input("Whats your name: ")
+print(f"Hello {name.strip().title()}")
+firstName, lastName = name.split()
+print(firstName,lastName)
