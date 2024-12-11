@@ -1,0 +1,32 @@
+'''
+Note
+
+Inheritance in Python
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class (child) to inherit properties and methods from another class (parent). 
+
+Key Concepts
+Parent (Base/Super) Class: The class being inherited from.
+
+Child (Derived/Sub) Class: The class that inherits the parent class.
+
+Syntax:
+class ParentClass:
+    # Parent class body
+    pass
+
+class ChildClass(ParentClass):
+    # Child class body
+    pass
+    
+When we do this we are inheriting all the methods and parameters included in the parent class.
+
+'''
+
+'''
+We mainly have four types of inheritances
+
+1. Single Inheritance: Where one child will inherit from one parent class
+
+2. 
+
+'''
